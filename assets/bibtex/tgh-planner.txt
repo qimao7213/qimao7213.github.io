@@ -1,0 +1,10 @@
+@ARTICLE{11272980,
+  author={Chen, Xuechao and Qi, Hengbo and Yu, Zhangguo and Zhang, Zeyu and Yang, Ruiwen and Shi, Yongliang and Meng, Fei and Huang, Qiang},
+  journal={IEEE/ASME Transactions on Mechatronics}, 
+  title={TGH-Planner: Topology-Guided Hierarchical Planner for Nonholonomic Robots in 2-D Unknown and Complex Environments}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-13},
+  keywords={Robots;Planning;Safety;Trajectory optimization;Splines (mathematics);Computational efficiency;Topology;Standards;Smoothing methods;Mechatronics;Motion planning;nonholonomic robot;path planning;topological path;trajectory optimization},
+  doi={10.1109/TMECH.2025.3620817}}

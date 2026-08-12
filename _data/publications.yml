@@ -1,0 +1,78 @@
+first_author:
+
+  - title: Enveloped Generalized Voronoi Graph and Multi-Topology Path Planning for Navigation in Unknown Environments
+    authors: <strong>Hengbo Qi</strong>, Yu Zhang, Chenxi Pan, Mengting Li, Fei Meng, Zhangguo Yu, Peng Lu, Xuechao Chen*
+    conference_short: T-MECH
+    conference: IEEE/ASME Transactions on Mechatronics, 2026.
+    ieee: https://doi.org/10.1109/TMECH.2026.3665212
+    pdf: ./assets/pdf/egvg.pdf
+    code: https://github.com/qimao7213/EGVG
+    bibtex: ./assets/bibtex/egvg.txt
+    image: ./assets/img/egvg-teaser.gif
+    notes: 一作
+
+  - title: "TGH-Planner: Topology-Guided Hierarchical Planner for Nonholonomic Robots in 2-D Unknown and Complex Environments"
+    authors: Xuechao Chen, <strong>Hengbo Qi</strong>, Zhangguo Yu, Zeyu Zhang, Ruiwen Yang, Yongliang Shi, Fei Meng*, Qiang Huang
+    conference_short: T-MECH
+    conference: IEEE/ASME Transactions on Mechatronics, 2025.
+    ieee: https://doi.org/10.1109/TMECH.2025.3620817
+    pdf: ./assets/pdf/tgh-planner.pdf
+    code: https://github.com/qimao7213/TGH-Planner
+    bibtex: ./assets/bibtex/tgh-planner.txt
+    image: ./assets/img/tgh-planner-teaser.gif
+    notes: 学生一作
+
+  - title: Semantic-Independent Dynamic SLAM Based on Geometric Re-Clustering and Optical Flow Residuals
+    authors: <strong>Hengbo Qi</strong>, Xuechao Chen, Zhangguo Yu, Chao Li, Yongliang Shi*, Qingrui Zhao, Qiang Huang
+    conference_short: T-CSVT
+    conference: IEEE Transactions on Circuits and Systems for Video Technology, 2024.
+    ieee: https://doi.org/10.1109/TCSVT.2024.3496489
+    pdf: ./assets/pdf/sindslam.pdf
+    code: https://github.com/qimao7213/SInDSLAM
+    bibtex: ./assets/bibtex/sindslam.txt
+    image: ./assets/img/sindslam-teaser.png
+    notes: 一作
+
+ongoing:
+
+  - title: Learning Affordance-Aware Object-State Reconfiguration for Local Passage Restoration
+    authors: <strong>Hengbo Qi</strong>, et al.
+    conference_short: Ongoing
+    others: 视觉语言导航 · 交互式导航 
+    image: ./assets/img/InteractiveNav.gif
+    notes: 进行中
+
+  - title: 四足机器人非结构化环境局部规划
+    authors: <strong>Hengbo Qi</strong>, et al.
+    conference_short: Ongoing
+    others: 路径规划 · 地形分析
+    image: ./assets/img/QuadrupedLocalPlanning.gif
+    notes: 进行中
+
+
+collaboration:
+
+  - title: Feasible Region Construction by Polygon Merging for Continuous Bipedal Walking
+    authors: Chao Li, Xuechao Chen, <strong>Hengbo Qi</strong>, Qingqing Li, Qingrui Zhao, Yongliang Shi, Zhangguo Yu, Lingxuan Zhao, Zhihong Jiang
+    conference_short: IROS
+    conference: IEEE IROS, 2024.
+    ieee: https://doi.org/10.1109/IROS58592.2024.10802326
+    image: ./assets/img/PolygonMerging.png
+    notes: 合作论文
+
+  - title: Robust Fall Recovery for Armless Bipedal-Wheeled Robots via Force-Guided Learning
+    authors: Haidong Hou, Zhangguo Yu, Tao Han, <strong>Hengbo Qi</strong>, Khaleel Ghazal, Yu Zhang, Yidong Du, Xuechao Chen, Fei Meng
+    conference_short: RAL
+    conference: IEEE Robotics and Automation Letters, 2026.
+    ieee: https://doi.org/10.1109/LRA.2026.3701481
+    image: ./assets/img/Falling-Up.png
+    notes: 合作论文
+
+  # 可以在这里继续补充合作论文，格式如下：
+  # - title: 论文标题
+  #   authors: 作者列表，<strong>Hengbo Qi</strong>
+  #   conference_short: 会议/期刊简称
+  #   conference: 会议或期刊全称，年份。
+  #   pdf: PDF 链接
+  #   code: 代码链接
+  #   notes: 合作论文

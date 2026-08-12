@@ -1,0 +1,14 @@
+_site
+.sass-cache
+Gemfile.lock
+*.gem
+.DS_Store
+.jekyll-cache
+.bundle/
+vendor/
+git-update.sh
+materials/
+.template-minimal-light/
+assets/files/
+assets/pdf/
+html_source_file/

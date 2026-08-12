@@ -1,0 +1,49 @@
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr">
+    {% if include.link.image %}
+    <img src="{{ include.link.image }}" class="teaser img-fluid z-depth-1" alt="paper teaser">
+    {% endif %}
+    {% if include.link.conference_short %}
+    <abbr class="badge">{{ include.link.conference_short }}</abbr>
+    {% endif %}
+  </div>
+  <div class="col-sm-9 pub-info">
+    <div class="title">{{ include.link.title }}</div>
+    <div class="author">{{ include.link.authors }}</div>
+    <div class="periodical">
+      {% if include.link.conference %}
+        {% if include.link.ieee %}
+        <a class="conference-link" href="{{ include.link.ieee }}" target="_blank" rel="noopener"><em>{{ include.link.conference }}</em></a>
+        {% else %}
+        <em>{{ include.link.conference }}</em>
+        {% endif %}
+      {% endif %}
+      {% if include.link.notes %}
+      <strong><i class="paper-note">{{ include.link.notes }}</i></strong>
+      {% endif %}
+    </div>
+    <div class="links">
+      {% if include.link.pdf and include.link.show_pdf %}
+      <a href="{{ include.link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      {% endif %}
+      {% if include.link.code %}
+      <a href="{{ include.link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener">Code</a>
+      {% endif %}
+      {% if include.link.page %}
+      <a href="{{ include.link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener">Project Page</a>
+      {% endif %}
+      {% if include.link.dblp %}
+      <a href="{{ include.link.dblp }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener">DBLP</a>
+      {% endif %}
+      {% if include.link.bibtex %}
+      <a href="{{ include.link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank">BibTeX</a>
+      {% endif %}
+      {% if include.link.others %}
+      <span class="paper-extra">{{ include.link.others }}</span>
+      {% endif %}
+    </div>
+  </div>
+</div>
+</li>
+<br>

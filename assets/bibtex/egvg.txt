@@ -1,0 +1,10 @@
+@ARTICLE{11422272,
+  author={Qi, Hengbo and Zhang, Yu and Pan, Chenxi and Li, Mengting and Meng, Fei and Yu, Zhangguo and Lu, Peng and Chen, Xuechao},
+  journal={IEEE/ASME Transactions on Mechatronics}, 
+  title={Enveloped Generalized Voronoi Graph and Multihomotopy Path Planning for Navigation in Unknown Environments}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-13},
+  keywords={Navigation;Planning;Path planning;Skeleton;Real-time systems;Topology;Three-dimensional displays;Systematics;Simultaneous localization and mapping;Robustness;Autonomous navigation;generalized Voronoi diagram (GVD);generalized Voronoi graph (GVG);path planning;unknown environment navigation;Voronoi diagram},
+  doi={10.1109/TMECH.2026.3665212}}

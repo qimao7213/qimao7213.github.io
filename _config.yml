@@ -1,0 +1,44 @@
+# Basic Information
+title: 漆桁博
+lang: zh-CN
+position: 博士三年级研究生
+affiliation: 北京理工大学机电学院
+affiliation_link: https://www.bit.edu.cn/
+email: 976374457 (at) qq dot com
+
+# Search Engine Optimization (SEO)
+keywords: 漆桁博, Hengbo Qi, SLAM, path planning, robot navigation, embodied AI, Beijing Institute of Technology
+description: 漆桁博，北京理工大学机电学院博士研究生，研究方向包括动态环境 SLAM、未知环境路径规划、具身导航与机器人自主系统。
+
+# Links
+google_scholar: https://scholar.google.com.hk/citations?user=AVHk09sAAAAJ
+github_link: https://github.com/qimao7213
+bilibili_link: https://space.bilibili.com/97315299
+
+# Images
+avatar: ./assets/img/headshot_upscaled_faithful.png
+favicon: ./assets/img/favicon.png
+favicon_dark: ./assets/img/favicon-dark.png
+
+# Theme options
+enable_footnote: true
+auto_dark_mode: true
+font: "Sans Serif"
+
+# Use this project as a remote theme for GitHub Pages
+remote_theme: yaoyao-liu/minimal-light
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - README_zh_Hans.md
+  - README_zh_Hant.md
+  - README_de.md
+  - LICENSE
+  - minimal-light.gemspec
+  - html_source_file/
+  - materials/
+  - .template-minimal-light/
+  - .bundle/
+  - vendor/
