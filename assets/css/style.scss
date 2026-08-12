@@ -326,16 +326,16 @@ html[data-theme="dark"] .research-tags span {
 }
 
 html[data-theme="dark"] strong {
-  color: #f3f6f8;
+  color: #f3f6f8 !important;
 }
 
 html[data-theme="dark"] .publications .author strong {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 html[data-theme="dark"] .publications ol.bibliography li .links a.btn {
-  border-color: #f3f6f8;
-  color: #f3f6f8;
+  border-color: #f3f6f8 !important;
+  color: #f3f6f8 !important;
 }
 
 html[data-theme="dark"] .theme-toggle {
