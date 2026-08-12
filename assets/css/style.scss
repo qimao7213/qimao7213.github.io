@@ -12,6 +12,33 @@ body {
   font-weight: 400;
 }
 
+.theme-toggle {
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid rgba(18, 61, 92, 0.14);
+  border-radius: 50%;
+  box-shadow: 0 5px 16px rgba(18, 61, 92, 0.12);
+  color: #0879bd;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  height: 38px;
+  justify-content: center;
+  padding: 0;
+  position: fixed;
+  right: 22px;
+  top: 20px;
+  transition: background-color 0.18s ease, color 0.18s ease, transform 0.18s ease;
+  width: 38px;
+  z-index: 10;
+}
+
+.theme-toggle:hover {
+  background: #eaf7f4;
+  color: #0b9f87;
+  transform: translateY(-1px);
+}
+
 h1 {
   color: #123d5c;
   font-size: 31px;
@@ -263,6 +290,83 @@ education {
   .research-tags span {
     color: #9ee6d5;
   }
+}
+
+html[data-theme="dark"] body {
+  background: #20212b;
+  color: #dadbdf;
+}
+
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,
+html[data-theme="dark"] h5,
+html[data-theme="dark"] h6 {
+  color: #73d7f8;
+}
+
+html[data-theme="dark"] h2::after {
+  background: rgba(11, 159, 135, 0.35);
+}
+
+html[data-theme="dark"] section p,
+html[data-theme="dark"] autocolor {
+  color: #dadbdf;
+}
+
+html[data-theme="dark"] .research-tags span,
+html[data-theme="dark"] .publications .pub-row {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(115, 215, 248, 0.11);
+}
+
+html[data-theme="dark"] .research-tags span {
+  color: #9ee6d5;
+}
+
+html[data-theme="dark"] .theme-toggle {
+  background: #2c303c;
+  border-color: rgba(115, 215, 248, 0.2);
+  color: #ffd166;
+}
+
+html[data-theme="dark"] .theme-toggle:hover {
+  background: #363b49;
+}
+
+html[data-theme="light"] body {
+  background: #fbfcfd;
+  color: #293241;
+}
+
+html[data-theme="light"] h1,
+html[data-theme="light"] h2,
+html[data-theme="light"] h3,
+html[data-theme="light"] h4,
+html[data-theme="light"] h5,
+html[data-theme="light"] h6 {
+  color: #123d5c;
+}
+
+html[data-theme="light"] h2::after {
+  background: #b9f2e4;
+}
+
+html[data-theme="light"] section p,
+html[data-theme="light"] autocolor {
+  color: #354255;
+}
+
+html[data-theme="light"] .research-tags span {
+  background: rgba(8, 121, 189, 0.08);
+  border-color: rgba(8, 121, 189, 0.14);
+  color: #24617f;
+}
+
+html[data-theme="light"] .publications .pub-row {
+  background: rgba(255, 255, 255, 0.56);
+  border-color: rgba(18, 61, 92, 0.07);
 }
 
 @media print, screen and (max-width: 480px) {
