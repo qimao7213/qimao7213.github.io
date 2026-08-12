@@ -325,6 +325,19 @@ html[data-theme="dark"] .research-tags span {
   color: #9ee6d5;
 }
 
+html[data-theme="dark"] strong {
+  color: #f3f6f8;
+}
+
+html[data-theme="dark"] .publications .author strong {
+  color: #ffffff;
+}
+
+html[data-theme="dark"] .publications ol.bibliography li .links a.btn {
+  border-color: #f3f6f8;
+  color: #f3f6f8;
+}
+
 html[data-theme="dark"] .theme-toggle {
   background: #2c303c;
   border-color: rgba(115, 215, 248, 0.2);
